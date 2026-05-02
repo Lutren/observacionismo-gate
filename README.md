@@ -6,6 +6,16 @@ JSONL. Sin dependencias externas. Sin imports al runtime interno de Claudio.
 Distribuible como modulo open source para que terceros adopten el principio
 observacionista en sus propios pipelines de IA y automatizacion.
 
+## Problemas que ataca
+
+- Claims sin evidencia: si no hay evidencia, el gate devuelve `hold/evidence`.
+- Alucinación convertida en acción: antes de publicar, gastar, navegar o tocar
+  archivos, la decisión queda registrada.
+- Automatización sin humano: acciones caras, inciertas o sensibles piden
+  aprobación.
+- Memoria operativa débil: el witness ledger deja una línea verificable para la
+  siguiente sesión o agente.
+
 ## Instalacion (uso directo)
 
 Copia `observacionismo_gate.py` a tu proyecto. No requiere `pip install`.
